@@ -27,6 +27,8 @@
     "webpack": "^1.12.2"
   },
   "dependencies": {
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2",
     "classnames": "^1.2.2",
     "es6-promise": "^3.0.2",
     "i18n-js": "fnando/i18n-js",
