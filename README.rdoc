@@ -1,28 +1,25 @@
-== README
+== Rails with Webpack starter kit
+Boilerplate with the gems and configuration I usually use when creating a new project.
+- Latest Rails version.
+- PostgreSQL
+- Webpack as assets builder
+- React
+- Redux
+...
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+=== Installation instructions
 
-Things you may want to cover:
+    $ git clone git@github.com:bigardone/rails_with_webpack_starter_kit.git
+    $ bundle install
+    $ npm install -g webpack
+    $ npm install
+    $ rake db:create
+    $ rake db:setup
+    $ foreman start -f Procfile.dev
 
-* Ruby version
+=== Testing
 
-* System dependencies
+PhantomJS must be installed.
+Brew formula is broken so we need to install it using npm:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+    $ npm install phantom phantomjs2 -g
