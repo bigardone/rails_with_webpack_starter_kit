@@ -1,0 +1,43 @@
+{
+  "name": "my_app",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo García Vega",
+  "license": "ISC",
+  "homepage": "http://codeloveandboards.com",
+  "devDependencies": {
+    "babel-loader": "~4.3.0",
+    "cjsx-loader": "~2.0.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "css-loader": "^0.20.1",
+    "exports-loader": "^0.6.2",
+    "expose-loader": "~0.6.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "imports-loader": "^0.6.4",
+    "jsx-loader": "~0.12.2",
+    "node-sass": "^3.3.3",
+    "sass-loader": "^3.0.0",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "classnames": "^1.2.2",
+    "es6-promise": "^3.0.2",
+    "i18n-js": "fnando/i18n-js",
+    "isomorphic-fetch": "^2.1.1",
+    "jquery": "^2.1.4",
+    "jquery-ujs": "^1.0.4",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^3.1.0",
+    "redux": "^3.0.2",
+    "redux-logger": "^2.0.1",
+    "redux-thunk": "^1.0.0"
+  }
+}
