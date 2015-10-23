@@ -43,10 +43,10 @@ gem 'carrierwave-aws'
 gem 'kaminari'
 gem 'pg_search'
 
-gem "js-routes"
+gem 'js-routes'
+gem 'simple_form'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'ffaker'
   gem 'spring-commands-rspec'
@@ -58,10 +58,7 @@ group :development, :test do
 end
 
 group :development do
-  # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'better_errors'
   gem 'binding_of_caller'

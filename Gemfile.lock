@@ -301,6 +301,9 @@ GEM
       rdoc (~> 4.0)
     sexp_processor (4.6.0)
     shellany (0.0.1)
+    simple_form (3.2.0)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
     slop (3.6.0)
     spring (1.4.0)
     spring-commands-rspec (1.0.4)
@@ -378,6 +381,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  simple_form
   spring
   spring-commands-rspec
   thin
