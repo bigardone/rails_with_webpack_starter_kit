@@ -27,7 +27,7 @@ module.exports = {
       { test: /\.js?$/, loader: 'babel',  exclude: /node_modules/ },
       { test: /\.cjsx$/, loaders: ["coffee", "cjsx"] },
       { test: /\.coffee$/,   loader: "coffee-loader" },
-      { test: /\.sass/, loader: ExtractPlugin.extract('style', 'css!sass?indentedSyntax') }
+      { test: /\.sass/, loader: ExtractPlugin.extract('style', 'css?sourceMap!sass?indentedSyntax&sourceMap') }
     ]
   },
   plugins: [
