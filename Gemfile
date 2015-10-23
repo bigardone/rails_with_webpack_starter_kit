@@ -45,6 +45,8 @@ gem 'pg_search'
 
 gem 'js-routes'
 gem 'simple_form'
+gem 'active_model_serializers'
+gem 'i18n-js'
 
 group :development, :test do
   gem 'byebug'
