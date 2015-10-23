@@ -66,6 +66,7 @@ group :development do
   gem 'guard-livereload', require: false
   gem 'foreman'
   gem 'letter_opener'
+  gem 'bullet'
 end
 
 group :test do

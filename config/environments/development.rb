@@ -47,4 +47,10 @@ Rails.application.configure do
   config.action_mailer.asset_host = nil
 
   config.action_mailer.delivery_method = :letter_opener
+
+  # Bullet config
+  config.after_initialize do
+    Bullet.enable = true
+    Bullet.rails_logger = true
+  end
 end
